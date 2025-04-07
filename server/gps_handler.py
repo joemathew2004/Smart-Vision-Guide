@@ -9,10 +9,9 @@ import threading
 app = Flask(__name__)
 CORS(app)
 
-GOOGLE_MAPS_API_KEY = "AIzaSyCvksfDM8-ye6ae6TkgLdYakxAMOtYTEe8"
-DESTINATION_LAT = 10.0577764
-DESTINATION_LNG = 76.6113135
-
+GOOGLE_MAPS_API_KEY = "YOUR-API-KEY"
+DESTINATION_LAT = None
+DESTINATION_LNG = None
 current_lat = None
 current_lng = None
 current_step_index = 0
