@@ -26,7 +26,7 @@ The server-side application processes video frames for object detection and inte
 
 * **`main.py` (Server Main):**
     * Sets up a server to receive video frames from multiple clients.
-    * Utilizes an object detection model (YOLO) to identify objects in the video streams.
+    * Utilizes an object detection model (YOLOv8) to identify objects in the video streams.
     * Combines object detection results with GPS navigation updates (provided by the Flask server).
     * Sends the combined information back to the client as text.
     * Manages multiple clients concurrently using threads.
