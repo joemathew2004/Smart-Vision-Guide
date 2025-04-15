@@ -1,6 +1,6 @@
 # Smart Assistive Navigation Device for Visually Impaired
 
-![Project Image](hat_frontside.jpeg)
+![Project Image](hat_frontside.jpg)
 
 This project implements a smart assistive device designed to enhance independent navigation for visually impaired individuals. It combines real-time object detection, distance measurement, GPS-based navigation, and voice interaction to provide comprehensive environmental awareness and guidance.
 
