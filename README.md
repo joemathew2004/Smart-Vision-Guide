@@ -1,6 +1,6 @@
 # Smart Assistive Navigation Device for Visually Impaired
 
-![Project Image](
+![Project Image](hat_frontside_copy.jpg)
 
 This project implements a smart assistive device, **integrated into a wearable hat**, designed to enhance independent navigation for visually impaired individuals. It combines real-time object detection, distance measurement, GPS-based navigation, and voice interaction to provide comprehensive environmental awareness and guidance, all within a discreet and convenient form factor.
 
