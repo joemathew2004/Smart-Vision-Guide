@@ -81,3 +81,17 @@ Joe Mathew
 Joel Kurian Abraham 
 Nived Tharun 
 Muhammed Jasim PT 
+
+## Authors
+
+- [Author Name 1]
+- [Author Name 2]
+- [Author Name 3]
+- [Author Name 4]
+
+## Authors
+
+[Author Name 1]
+[Author Name 2]
+[Author Name 3]
+[Author Name 4]
