@@ -77,7 +77,7 @@ This framework aims to provide visually impaired individuals with:
 
 ## Author
 
-Joe Mathew
-Joel Kurian Abraham
-Nived Tharun
-Muhammed Jasim PT
+Joe Mathew 
+Joel Kurian Abraham 
+Nived Tharun 
+Muhammed Jasim PT 
