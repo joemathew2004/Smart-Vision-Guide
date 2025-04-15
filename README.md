@@ -60,21 +60,6 @@ This framework aims to provide visually impaired individuals with:
 * **Turn-by-turn GPS navigation:** Guiding the user to their destination.
 * **Voice interaction:** Enabling intuitive communication with the device for commands and information.
 
-## Potential Future Improvements
-
-* Gesture-based controls for more interaction options.
-* Multi-sensor fusion to integrate data from various sensors for more robust environmental understanding.
-* Adaptive guidance based on user behavior and environmental context.
-
-## Repository Contents
-
-* `client/`: Contains the Python code for the client-side application (running on Raspberry Pi).
-    * `main.py`: The main client program.
-* `server/`: Contains the Python code for the server-side application.
-    * `main.py`: The main server program.
-    * `predictions.py`: Handles object detection in video frames.
-    * `gps_handler.py`: Provides GPS-based navigation instructions.
-
 ## Authors
 
 - Joe Mathew
