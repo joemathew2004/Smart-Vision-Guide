@@ -75,23 +75,9 @@ This framework aims to provide visually impaired individuals with:
     * `predictions.py`: Handles object detection in video frames.
     * `gps_handler.py`: Provides GPS-based navigation instructions.
 
-## Author
-
-Joe Mathew 
-Joel Kurian Abraham 
-Nived Tharun 
-Muhammed Jasim PT 
-
 ## Authors
 
-- [Author Name 1]
-- [Author Name 2]
-- [Author Name 3]
-- [Author Name 4]
-
-## Authors
-
-[Author Name 1]
-[Author Name 2]
-[Author Name 3]
-[Author Name 4]
+- [Joe Mathew]
+- [Joel Kurian Abraham]
+- Nived Tharun
+- [Muhammed Jasim PT ]
