@@ -62,6 +62,56 @@ This framework aims to provide visually impaired individuals with:
 * **Turn-by-turn GPS navigation:** Guiding the user to their destination.
 * **Voice interaction:** Enabling intuitive communication with the device for commands and information.
 
+## Project Execution Requirements
+
+**Hardware Requirements:**
+
+* Raspberry Pi 5 (8GB recommended)
+* Raspberry Pi Camera Module or compatible USB webcam
+* Ultrasonic Sensor (HC-SR04) – for obstacle distance detection
+* Buzzer – for proximity alerts
+* Microphone Module – for voice command input
+* Speaker / Earphones – for audio feedback (Google TTS output)
+* Power Supply – Portable power bank (minimum 10,000 mAh)
+* Wi-Fi connectivity – Required for Raspberry Pi to communicate with server
+* Smartphone – To run GPS tracking app and send coordinates
+* Optional: Breadboard, jumper wires, resistor (for ultrasonic circuit setup)
+
+**Software Requirements:**
+
+**On Raspberry Pi (Client Side):**
+
+* **OS:** Raspberry Pi OS (32-bit recommended)
+* **Python Version:** Python 3.8 or later
+* **Required Python Libraries:** `pip install SpeechRecognition gtts playsound requests socket numpy pyaudio RPi.GPIO`
+* **Google APIs:**
+    * Google Speech-to-Text API
+    * Google Text-to-Speech (gTTS)
+* Flask Client (to interact with server)
+* Mic & audio configuration (ALSA or PulseAudio)
+
+**On Server (Object Detection & Navigation Logic):**
+
+* **OS:** Windows/Linux (recommended: Ubuntu or any local machine)
+* **Python Version:** Python 3.8 or later
+* **Required Python Libraries:** `pip install flask ultralytics opencv-python numpy requests geopy`
+* **YOLOv8 Model Files:**
+    * Install Ultralytics: `pip install ultralytics`
+    * Use pre-trained model: `yolov8n.pt` or `yolov8s.pt`
+
+**On Mobile (GPS Tracking App):**
+
+* Mobile app
+* Send location data to the server via REST API POST (Flask route)
+* **Smartphone must have:**
+    * GPS turned ON
+    * Mobile data/Wi-Fi enabled
+
+**Other Essentials:**
+
+* Raspberry Pi and server must be on the same network or accessible via public IP.
+* Update IP addresses in the socket/client/server scripts as per your setup.
+
 ## Authors
 
 - Joe Mathew
